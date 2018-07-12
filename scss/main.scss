@@ -1,0 +1,13 @@
+$font_size: 25px;
+
+nav {
+    font-size: $font_size;
+    background: #ffffff00;
+    .navbar-nav a {
+        color: #00c2ad;
+    }
+    .navbar-nav a:hover {
+        text-decoration: none;
+        color: #00ffe5;
+    }
+}

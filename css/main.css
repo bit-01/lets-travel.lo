@@ -1,0 +1,10 @@
+nav {
+  font-size: 25px;
+  background: #ffffff00; }
+  nav .navbar-nav a {
+    color: #00c2ad; }
+  nav .navbar-nav a:hover {
+    text-decoration: none;
+    color: #00ffe5; }
+
+/*# sourceMappingURL=main.css.map */
