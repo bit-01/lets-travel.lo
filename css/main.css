@@ -33,6 +33,14 @@ nav {
     padding-right: 0;
     padding-left: 0; }
 
+.btn-my {
+  background-color: #00c2ad !important;
+  color: #fff !important; }
+
+button.btn-my:hover, button.btn-my:focus, a.btn-my:hover, a.btn-my:focus {
+  background-color: #fff !important;
+  color: #00c2ad !important; }
+
 .cont {
   height: 450.55px;
   overflow: hidden; }

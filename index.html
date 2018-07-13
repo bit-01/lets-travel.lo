@@ -31,7 +31,7 @@
                         <a href="reviews.html" class="nav-link">Reviews</a> 
                     </li>
                     <li class="nav-item">
-                        <a id="contact" href="" class="nav-link">Contact</a> 
+                        <a id="contact" href="#modal-full" class="nav-link" uk-toggle>Contact</a> 
                     </li>
                 </ul>
             </div>
@@ -71,6 +71,42 @@
                 </a>
             </div>
         </section>
+
+        <div id="modal-full" class="uk-modal-full" uk-modal>
+            <div class="uk-modal-dialog">
+                <button class="uk-modal-close-full uk-close-large float-right mr-3 mt-3" type="button" uk-close></button>
+                <div class="uk-grid-collapse uk-child-width-1-2@s uk-flex-middle" uk-grid>
+                    <div class="uk-background-cover" style="background-image: url('img/homing-pigeons-3-1397554.jpg')" uk-height-viewport></div>
+                    <form class="uk-padding-large" action="" method="POST">
+                        <div class="input-group mb-3 input-group-lg">
+                            <div class="input-group-prepend ">
+                                <span class="input-group-text btn-my">Your Name</span>
+                            </div>
+                            <input class="form-control" placeholder="your name" value="">
+                        </div>
+                        <div class="input-group mb-3 input-group-lg">
+                            <div class="input-group-prepend">
+                                <span class="input-group-text btn-my">Your Email</span>
+                            </div>
+                            <input class="form-control" placeholder="your email" value="">
+                        </div>
+                        <div class="input-group mb-3 input-group-lg">
+                            <div class="input-group-prepend">
+                                <span class="input-group-text btn-my">Subject</span>
+                            </div>
+                            <input class="form-control" placeholder="subject" value="">
+                        </div>
+                        <div class="input-group mb-3 input-group-lg">
+                            <div class="input-group-prepend">
+                                <span class="input-group-text btn-my" >Message</span>
+                            </div>
+                            <textarea class="form-control" placeholder="message...." value=""></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-lg btn-my">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
         <script src="lib/jquery-3.3.1/jquery-3.3.1.min.js"></script>
         <script src="lib/bootstrap-4.1.1/js/bootstrap.bundle.min.js"></script>
         <script src="lib/bootstrap-4.1.1/js/bootstrap.min.js"></script>
@@ -78,6 +114,12 @@
         <script src="lib/ui-kit-3.0.0/js/uikit.js"></script>
         <script>
             AOS.init({duration: 600});
+            UIkit.util.on('#modal-full', 'show', function(){
+                $('nav.fixed-top').css('z-index', '5');
+            });
+            UIkit.util.on('#modal-full', 'hide', function(){
+                $('nav.fixed-top').css('z-index', '1030');
+            });
         </script>
     </body>
 </html>

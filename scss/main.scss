@@ -53,7 +53,14 @@ nav {
     }
 }
 
-
+.btn-my {
+    background-color: $link !important;
+    color: $white !important;
+}
+button.btn-my:hover, button.btn-my:focus, a.btn-my:hover, a.btn-my:focus {
+    background-color: $white !important;
+    color: $link !important;
+}
 
 .cont {
     height: 450.55px;
@@ -109,6 +116,8 @@ nav {
 .cont:hover div span, .cont:focus div span {
     display: none;
 }
+
+
 
 @media (max-width: 992px) {
     nav {
