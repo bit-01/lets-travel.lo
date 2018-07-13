@@ -14,7 +14,7 @@
         <title>Let's Travel Agency</title>
     </head>
     <body>
-        <nav class="navbar navbar-expand-lg" uk-sticky="animation: uk-animation-fade; sel-target: .navbar; cls-active: uk-navbar-sticky rev; cls-inactive: uk-navbar-transparent fixed-top; top:550">
+        <nav class="navbar navbar-expand-lg rev">
             <a class="navbar-brand" href="http://lets-travel.lo:5104">
                 <img id="desk" src="img/Logo.png" width="126">
                 <img id="mob" src="img/Logo2.png" width="126">
@@ -36,39 +36,65 @@
                 </ul>
             </div>
         </nav>
-        <header class="index"></header>
-        <section role="main">
+
+        <section role="section">
             <div class="row no-gutters">
-                <a href="africa.html" class="col-md-6  cont text-center" data-aos="fade-down">
-                    <div style="background-image: url('img/africa.jpg');">
-                       <span>Africa</span>
+                <a href="#" class="col-md-3  cont text-center">
+                    <div style="background-image: url('img/South America/Amazon River.jpg');">
+                        <span>Amazon River</span>
                     </div>
                 </a>
-                <a href="asia.html" class="col-md-6  cont text-center" data-aos="fade-down">
-                    <div style="background-image: url('img/asia.jpg');">
-                        <span>Asia</span>
+                <a href="#" class="col-md-3  cont text-center">
+                    <div style="background-image: url('img/South America/Atacama Desert, Chile.jpg');">
+                        <span>Atacama Desert</span>
                     </div>
                 </a>
-                <a href="australia.html" class="col-md-6  cont text-center" data-aos="fade-down">
-                    <div style="background-image: url('img/australia.jpg');">
-                        <span>Australia</span>
+                <a href="#" class="col-md-3  cont text-center">
+                    <div style="background-image: url('img/South America/Cartagena.jpg');">
+                        <span>Cartagena</span>
                     </div>
                 </a>
-                <a href="europe.html" class="col-md-6  cont text-center" data-aos="fade-down">
-                    <div style="background-image: url('img/europe.jpg');">
-                        <span>Europe</span>
+                <a href="#" class="col-md-3  cont text-center">
+                    <div style="background-image: url('img/South America/Easter Island.jpg');">
+                        <span>Easter Island</span>
                     </div>
                 </a>
-                <a href="north-america.html" class="col-md-6  cont text-center" data-aos="fade-down">
-                    <div style="background-image: url('img/north-america.jpg');">
-                        <span>North America</span>
+                <a href="#" class="col-md-3  cont text-center">
+                    <div style="background-image: url('img/South America/galapagos-islands-ecuador-GALAPA1104.jpg');">
+                        <span>Galapagos Islands</span>
                     </div>
                 </a>
-                <a href="south-america.html" class="col-md-6  cont text-center" data-aos="fade-down">
-                    <div style="background-image: url('img/south-america.jpg');">
-                        <span>South America</span>
+                <div href="#" class="col-md-6 p-3  text-center" style="height:194px; font-size: 1.4em;">
+                   
+                    <p id="desc">Text in here it goes about South America</p>
+                  
+                </div>
+                <a href="#" class="col-md-3  cont text-center">
+                    <div style="background-image: url('img/South America/iguazu-falls-south-america-2773777_1280.jpg'); ">
+                        <span>Iguazu Falls</span>
                     </div>
                 </a>
+                <a href="#" class="col-md-3  cont text-center">
+                    <div style="background-image: url('img/South America/Inca Trail.jpg');">
+                        <span>Inca Trail</span>
+                    </div>
+                </a>
+                <a href="#" class="col-md-3  cont text-center">
+                    <div style="background-image: url('img/South America/Patagonia.jpg'); ">
+                        <span>Patagonia</span>
+                    </div>
+                </a>
+                <a href="#" class="col-md-3  cont text-center">
+                    <div style="background-image: url('img/South America/Taste-Galapagos-Machu-Picchu-5-min.jpg'); background-position:bottom;">
+                        <span>Taste Galapagos Machu</span>
+                    </div>
+                </a>
+                <a href="#" class="col-md-3  cont text-center">
+                    <div style="background-image: url('img/South America/uyuni-salt-flats.jpg');">
+                        <span>Uyuni Salt Flats</span>
+                    </div>
+                </a>
+
             </div>
         </section>
 
@@ -113,7 +139,7 @@
         <script src="lib/aos/js/aos.js"></script>
         <script src="lib/ui-kit-3.0.0/js/uikit.js"></script>
         <script>
-            AOS.init({duration: 600});
+            
             UIkit.util.on('#modal-full', 'show', function(){
                 $('nav.fixed-top').css('z-index', '5');
             });
