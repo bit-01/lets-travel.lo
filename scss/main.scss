@@ -62,6 +62,13 @@ button.btn-my:hover, button.btn-my:focus, a.btn-my:hover, a.btn-my:focus {
     color: $link !important;
 }
 
+section[role="section"] .row .cont {
+   height: 194px;
+   div span {
+       font-size: 1.5em !important;
+   }
+}
+
 .cont {
     height: 450.55px;
     overflow: hidden;

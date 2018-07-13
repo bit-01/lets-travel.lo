@@ -14,7 +14,7 @@
         <title>Let's Travel Agency</title>
     </head>
     <body>
-        <nav class="navbar navbar-expand-lg" uk-sticky="animation: uk-animation-fade; sel-target: .navbar; cls-active: uk-navbar-sticky rev; cls-inactive: uk-navbar-transparent fixed-top; top:550">
+        <nav class="navbar navbar-expand-lg rev">
             <a class="navbar-brand" href="http://lets-travel.lo:5104">
                 <img id="desk" src="img/Logo.png" width="126">
                 <img id="mob" src="img/Logo2.png" width="126">
@@ -36,39 +36,65 @@
                 </ul>
             </div>
         </nav>
-        <header class="index"></header>
-        <section role="main">
+
+        <section role="section">
             <div class="row no-gutters">
-                <a href="africa.html" class="col-md-6  cont text-center" data-aos="fade-down">
-                    <div style="background-image: url('img/africa.jpg');">
-                       <span>Africa</span>
+                <a href="#" class="col-md-3  cont text-center">
+                    <div style="background-image: url('img/Africa/1200px-Boulders_Bay.jpg');">
+                        <span>Boulders Bay</span>
                     </div>
                 </a>
-                <a href="#" class="col-md-6  cont text-center" data-aos="fade-down">
-                    <div style="background-image: url('img/asia.jpg');">
-                        <span>Asia</span>
+                <a href="#" class="col-md-3  cont text-center">
+                    <div style="background-image: url('img/Africa/Cape-Point-And-Pennsula-Point-View.jpg');">
+                        <span>Cape Point</span>
                     </div>
                 </a>
-                <a href="#" class="col-md-6  cont text-center" data-aos="fade-down">
-                    <div style="background-image: url('img/australia.jpg');">
-                        <span>Australia</span>
+                <a href="#" class="col-md-3  cont text-center">
+                    <div style="background-image: url('img/Africa/Kenya.jpeg');">
+                        <span>Kenya</span>
                     </div>
                 </a>
-                <a href="#" class="col-md-6  cont text-center" data-aos="fade-down">
-                    <div style="background-image: url('img/europe.jpg');">
-                        <span>Europe</span>
+                <a href="#" class="col-md-3  cont text-center">
+                    <div style="background-image: url('img/Africa/Mount_Kilimanjaro_Dec_2009_edit1.jpg');">
+                        <span>Mount Kilimanjaro</span>
                     </div>
                 </a>
-                <a href="#" class="col-md-6  cont text-center" data-aos="fade-down">
-                    <div style="background-image: url('img/north-america.jpg');">
-                        <span>North America</span>
+                <a href="#" class="col-md-3  cont text-center">
+                    <div style="background-image: url('img/Africa/Namibia.jpg');">
+                        <span>Namibia</span>
                     </div>
                 </a>
-                <a href="#" class="col-md-6  cont text-center" data-aos="fade-down">
-                    <div style="background-image: url('img/south-america.jpg');">
-                        <span>South America</span>
+                <div href="#" class="col-md-6 p-3  text-center" style="height:194px; font-size: 1.4em;">
+                   
+                    <p id="desc">Text in hrer it goes about africa</p>
+                  
+                </div>
+                <a href="#" class="col-md-3  cont text-center">
+                    <div style="background-image: url('img/Africa/Ngorongoro Conservation Area.jpg');">
+                        <span>Ngorongoro Conservation Area</span>
                     </div>
                 </a>
+                <a href="#" class="col-md-3  cont text-center">
+                    <div style="background-image: url('img/Africa/Okavango_Delta,_Botswana_(2674364913).jpg');">
+                        <span>Okavango Delta</span>
+                    </div>
+                </a>
+                <a href="#" class="col-md-3  cont text-center">
+                    <div style="background-image: url('img/Africa/Cradle of Humankind.jpg'); background-position:bottom;">
+                        <span>Cradle of Humankind</span>
+                    </div>
+                </a>
+                <a href="#" class="col-md-3  cont text-center">
+                    <div style="background-image: url('img/Africa/table mountain south africa.jpg');">
+                        <span>Table Mountain</span>
+                    </div>
+                </a>
+                <a href="#" class="col-md-3  cont text-center">
+                    <div style="background-image: url('img/Africa/university-of-timbuktu.png');">
+                        <span>University Of Timbuktu</span>
+                    </div>
+                </a>
+
             </div>
         </section>
 
@@ -113,7 +139,7 @@
         <script src="lib/aos/js/aos.js"></script>
         <script src="lib/ui-kit-3.0.0/js/uikit.js"></script>
         <script>
-            AOS.init({duration: 600});
+            
             UIkit.util.on('#modal-full', 'show', function(){
                 $('nav.fixed-top').css('z-index', '5');
             });

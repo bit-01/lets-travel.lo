@@ -41,6 +41,11 @@ button.btn-my:hover, button.btn-my:focus, a.btn-my:hover, a.btn-my:focus {
   background-color: #fff !important;
   color: #00c2ad !important; }
 
+section[role="section"] .row .cont {
+  height: 194px; }
+  section[role="section"] .row .cont div span {
+    font-size: 1.5em !important; }
+
 .cont {
   height: 450.55px;
   overflow: hidden; }
