@@ -7,4 +7,20 @@ nav {
     text-decoration: none;
     color: #00ffe5; }
 
+.index {
+  background-color: #00000000;
+  background-image: url("../img/global_travel_detail.jpg");
+  min-height: 670px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center; }
+
+.no-gutters {
+  margin-right: 0;
+  margin-left: 0; }
+  .no-gutters > .col,
+  .no-gutters > [class*="col-"] {
+    padding-right: 0;
+    padding-left: 0; }
+
 /*# sourceMappingURL=main.css.map */
