@@ -1,14 +1,13 @@
 nav {
   font-size: 25px;
   background: #ffffff00; }
-  nav .navbar-nav a {
+  nav .navbar-nav a, nav .navbar-toggler .fa-bars {
     color: #00c2ad; }
-  nav .navbar-nav a:hover {
+  nav .navbar-nav a:hover, nav .navbar-nav a:focus {
     text-decoration: none;
     color: #00ffe5; }
-
-.navbar-toggler .fa-bars {
-  color: #00c2ad; }
+  nav #mob {
+    display: none; }
 
 .index {
   background-color: #00000000;
@@ -69,5 +68,15 @@ nav {
 
 .cont:hover div span, .cont:focus div span {
   display: none; }
+
+@media (max-width: 992px) {
+  nav {
+    background: #00c2ad; }
+    nav .navbar-nav a, nav .navbar-toggler .fa-bars {
+      color: #fff; }
+    nav #desk {
+      display: none; }
+    nav #mob {
+      display: block; } }
 
 /*# sourceMappingURL=main.css.map */

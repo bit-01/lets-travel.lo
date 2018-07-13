@@ -8,7 +8,7 @@
         <link rel="stylesheet" href="lib/fonts-awsome-5.1.0/css/all.css">
         <link rel="stylesheet" href="lib/aos/css/aos.css">
         <link rel="stylesheet" href="css/main.css">
-        <!-- <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" /> -->
+        <link rel="stylesheet" href="lib/ui-kit-3.0.0/css/uikit.css" >
         <link rel="icon" href="img/icon.png">
         
         <title>Let's Travel Agency</title>
@@ -16,7 +16,8 @@
     <body>
         <nav class="navbar navbar-expand-lg fixed-top">
             <a class="navbar-brand" href="http://lets-travel.lo:5104">
-                <img src="img/Logo.png" width="126">
+                <img id="desk" src="img/Logo.png" width="126">
+                <img id="mob" src="img/Logo2.png" width="126">
             </a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#nav" aria-controls="nav" aria-expanded="false" aria-label="Toggle Navigation">
                 <span class="fa fa-2x fa-bars"></span>
@@ -74,8 +75,9 @@
         <script src="lib/bootstrap-4.1.1/js/bootstrap.bundle.min.js"></script>
         <script src="lib/bootstrap-4.1.1/js/bootstrap.min.js"></script>
         <script src="lib/aos/js/aos.js"></script>
+        <script src="lib/ui-kit-3.0.0/js/uikit.js"></script>
         <script>
-            AOS.init();
+            AOS.init({duration: 600});
         </script>
     </body>
 </html>
