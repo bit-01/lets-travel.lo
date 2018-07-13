@@ -1,6 +1,14 @@
+.rev {
+  background-color: #00c2ad !important; }
+  .rev .navbar-nav a, .rev .navbar-toggler .fa-bars {
+    color: #fff !important; }
+  .rev #mob {
+    display: block; }
+  .rev #desk {
+    display: none; }
+
 nav {
-  font-size: 25px;
-  background: #ffffff00; }
+  font-size: 25px; }
   nav .navbar-nav a, nav .navbar-toggler .fa-bars {
     color: #00c2ad; }
   nav .navbar-nav a:hover, nav .navbar-nav a:focus {

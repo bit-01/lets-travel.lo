@@ -3,9 +3,22 @@ $title: #000;
 $link: #00c2ad;
 $white: #fff;
 
+.rev {
+    background-color: $link !important;
+    .navbar-nav a, .navbar-toggler .fa-bars {
+        color: $white !important;
+    }
+    #mob {
+        display: block;
+    }
+    #desk {
+        display: none;
+    }
+}
+
 nav {
     font-size: $font_size;
-    background: #ffffff00;
+    // background: #ffffff00;
     .navbar-nav a, .navbar-toggler .fa-bars {
         color: $link;
     }
