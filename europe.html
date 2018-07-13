@@ -14,7 +14,7 @@
         <title>Let's Travel Agency</title>
     </head>
     <body>
-        <nav class="navbar navbar-expand-lg" uk-sticky="animation: uk-animation-fade; sel-target: .navbar; cls-active: uk-navbar-sticky rev; cls-inactive: uk-navbar-transparent fixed-top; top:550">
+        <nav class="navbar navbar-expand-lg rev">
             <a class="navbar-brand" href="http://lets-travel.lo:5104">
                 <img id="desk" src="img/Logo.png" width="126">
                 <img id="mob" src="img/Logo2.png" width="126">
@@ -36,39 +36,65 @@
                 </ul>
             </div>
         </nav>
-        <header class="index"></header>
-        <section role="main">
+
+        <section role="section">
             <div class="row no-gutters">
-                <a href="africa.html" class="col-md-6  cont text-center" data-aos="fade-down">
-                    <div style="background-image: url('img/africa.jpg');">
-                       <span>Africa</span>
+                <a href="#" class="col-md-3  cont text-center">
+                    <div style="background-image: url('img/Europe/acropolis-10917.jpg');">
+                        <span>Acropolis</span>
                     </div>
                 </a>
-                <a href="asia.html" class="col-md-6  cont text-center" data-aos="fade-down">
-                    <div style="background-image: url('img/asia.jpg');">
-                        <span>Asia</span>
+                <a href="#" class="col-md-3  cont text-center">
+                    <div style="background-image: url('img/Europe/brandenburg-gate-10648.jpg');">
+                        <span>Brandenburg Gate</span>
                     </div>
                 </a>
-                <a href="australia.html" class="col-md-6  cont text-center" data-aos="fade-down">
-                    <div style="background-image: url('img/australia.jpg');">
-                        <span>Australia</span>
+                <a href="#" class="col-md-3  cont text-center">
+                    <div style="background-image: url('img/Europe/dubrovnik-10805.jpg');">
+                        <span>Dubrovnik</span>
                     </div>
                 </a>
-                <a href="europe.html" class="col-md-6  cont text-center" data-aos="fade-down">
-                    <div style="background-image: url('img/europe.jpg');">
-                        <span>Europe</span>
+                <a href="#" class="col-md-3  cont text-center">
+                    <div style="background-image: url('img/Europe/eiffel-tower-1576.jpg');">
+                        <span>Eiffel Tower</span>
                     </div>
                 </a>
-                <a href="#" class="col-md-6  cont text-center" data-aos="fade-down">
-                    <div style="background-image: url('img/north-america.jpg');">
-                        <span>North America</span>
+                <a href="#" class="col-md-3  cont text-center">
+                    <div style="background-image: url('img/Europe/florence-duomo-climb-hero.jpg');">
+                        <span>Florence</span>
                     </div>
                 </a>
-                <a href="#" class="col-md-6  cont text-center" data-aos="fade-down">
-                    <div style="background-image: url('img/south-america.jpg');">
-                        <span>South America</span>
+                <div href="#" class="col-md-6 p-3  text-center" style="height:194px; font-size: 1.4em;">
+                   
+                    <p id="desc">Text in here it goes about Europe</p>
+                  
+                </div>
+                <a href="#" class="col-md-3  cont text-center">
+                    <div style="background-image: url('img/Europe/la-sagrada-familia-10314Copy.jpg'); background-position:bottom;">
+                        <span>La Sagrada Familia</span>
                     </div>
                 </a>
+                <a href="#" class="col-md-3  cont text-center">
+                    <div style="background-image: url('img/Europe/newgrange-tour-1-1920x1080.jpg');">
+                        <span>Newgrange</span>
+                    </div>
+                </a>
+                <a href="#" class="col-md-3  cont text-center">
+                    <div style="background-image: url('img/Europe/Padrão dos Descobrimentos.jpg'); ">
+                        <span>Padrão dos Descobrimentos</span>
+                    </div>
+                </a>
+                <a href="#" class="col-md-3  cont text-center">
+                    <div style="background-image: url('img/Europe/piza.jpg');">
+                        <span>Piza Tower</span>
+                    </div>
+                </a>
+                <a href="#" class="col-md-3  cont text-center">
+                    <div style="background-image: url('img/Europe/Sibelius Monument (1).jpg');">
+                        <span>Sibelius Monument</span>
+                    </div>
+                </a>
+
             </div>
         </section>
 
@@ -113,7 +139,7 @@
         <script src="lib/aos/js/aos.js"></script>
         <script src="lib/ui-kit-3.0.0/js/uikit.js"></script>
         <script>
-            AOS.init({duration: 600});
+            
             UIkit.util.on('#modal-full', 'show', function(){
                 $('nav.fixed-top').css('z-index', '5');
             });
