@@ -7,6 +7,9 @@ nav {
     text-decoration: none;
     color: #00ffe5; }
 
+.navbar-toggler .fa-bars {
+  color: #00c2ad; }
+
 .index {
   background-color: #00000000;
   background-image: url("../img/global_travel_detail.jpg");
@@ -22,5 +25,49 @@ nav {
   .no-gutters > [class*="col-"] {
     padding-right: 0;
     padding-left: 0; }
+
+.cont {
+  height: 450.55px;
+  overflow: hidden; }
+  .cont div:first-child {
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    -webkit-transition: all .5s;
+    -moz-transition: all .5s;
+    -o-transition: all .5s;
+    transition: all .5s; }
+  .cont div:first-child::before {
+    content: "";
+    display: block;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: #00c2af66; }
+  .cont div span {
+    font-size: 3em;
+    margin: auto;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    height: 50px;
+    color: #fff; }
+  .cont :hover, .cont :focus {
+    -webkit-transform: scale(1.2);
+    -o-transform: scale(1.2);
+    -moz-transform: scale(1.2);
+    -ms-transform: scale(1) 0.2;
+    transform: scale(1.2); }
+
+.cont:hover div:first-child::before, .cont:focus div:first-child::before {
+  display: none; }
+
+.cont:hover div span, .cont:focus div span {
+  display: none; }
 
 /*# sourceMappingURL=main.css.map */

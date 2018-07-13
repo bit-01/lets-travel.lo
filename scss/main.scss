@@ -1,11 +1,12 @@
 $font_size: 25px;
 $title: #000;
+$link: #00c2ad;
 
 nav {
     font-size: $font_size;
     background: #ffffff00;
     .navbar-nav a {
-        color: #00c2ad;
+        color: $link;
     }
     .navbar-nav a:hover {
         text-decoration: none;
@@ -13,6 +14,9 @@ nav {
     }
 }
 
+.navbar-toggler .fa-bars {
+    color: $link;
+}
 
 .index {
     background-color: #00000000;
@@ -24,8 +28,6 @@ nav {
     background-position: center;
 }
 
-
-
 .no-gutters {
     margin-right: 0;
     margin-left: 0;
@@ -35,4 +37,61 @@ nav {
       padding-right: 0;
       padding-left: 0;
     }
-  }
+}
+
+
+
+.cont {
+    height: 450.55px;
+    overflow: hidden;
+
+    div:first-child{
+        height: 100%;
+        width: 100%;
+        background-size: cover;
+        background-repeat: no-repeat;
+        -webkit-transition: all .5s;
+        -moz-transition: all .5s;
+        -o-transition: all .5s;
+        transition: all .5s;
+    }
+
+    div:first-child::before {
+        content: "";
+        display: block;
+        height: 100%;
+        width: 100%;
+        position: absolute;
+        top: 0;
+        left: 0;
+        background-color: #00c2af66; 
+    }
+
+    div span {
+        font-size: 3em;
+        margin: auto;
+        position: absolute;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        right: 0;
+        height: 50px;
+        color: #fff;
+    }
+    :hover, :focus {
+        -webkit-transform: scale(1.2);
+        -o-transform: scale(1.2);
+        -moz-transform: scale(1.2);
+        -ms-transform: scale(1).2;
+        transform: scale(1.2);
+    }
+    
+}
+
+.cont:hover div:first-child::before, .cont:focus div:first-child::before{
+    display: none;
+}
+
+.cont:hover div span, .cont:focus div span {
+    display: none;
+}
