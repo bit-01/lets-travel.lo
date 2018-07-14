@@ -88,12 +88,8 @@
         <script src="lib/aos/js/aos.js"></script>
         <script src="lib/ui-kit-3.0.0/js/uikit.js"></script>
         <script>
-            AOS.init({duration: 600});
-            UIkit.util.on('#modal-full', 'show', function(){
-                $('nav.fixed-top').css('z-index', '5');
-            });
-            UIkit.util.on('#modal-full', 'hide', function(){
-                $('nav.fixed-top').css('z-index', '1030');
+            $(document).ready(function(){
+                $.getScript('js/main.js');
             });
         </script>
     </body>
