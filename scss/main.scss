@@ -127,7 +127,15 @@ section[role="section"] .row .cont {
     display: none;
 }
 
+.about {
+    background-image: url('../img/dream-journey-travel-girl-lonely-sky-clouds-wallpaper-hd.jpg') !important;
+    min-height: 450px !important;
+    background-position: top;
+}
 
+.about-parg {
+    font-size: 1.2em;
+}
 
 @media (max-width: 992px) {
     nav {
