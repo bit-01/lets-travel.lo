@@ -137,6 +137,20 @@ section[role="section"] .row .cont {
     font-size: 1.2em;
 }
 
+.black {
+    color: #fff !important;
+}
+
+
+.c-item {
+    margin: 5px 50px;
+    display: inline-block;
+
+    blockquote, h3 {
+        color: #fff !important;
+    }
+}
+
 @media (max-width: 992px) {
     nav {
         background: $link;
